@@ -194,7 +194,7 @@ Official links: [Website](https://herdr.dev/) · [GitHub](https://github.com/ogu
 | [**lufs-audio/snuze**](https://github.com/lufs-audio/snuze) | Provides Agent alarm clock in Rust: set timers, watch Jules sessions and herdr pane states, listen for webhook signals, get woken up. No polling, so fewer wasted tokens. |
 | [**TonyPorj/boss-mad**](https://github.com/TonyPorj/boss-mad) | Provides Boss/MAD: give it a goal, Hermes spawns a crew in Herdr tabs, they work in parallel, Hermes verifies and hands off. Local Windows-native multi-agent orchestration. |
 | [**Rocco-Gossmann/Herdr-Workspace**](https://github.com/Rocco-Gossmann/Herdr-Workspace) | Creates a Herdr-Workspace with multiple Tabs + Splits in one command in your default session. |
-| [**vib-z/stampede**](https://github.com/vib-z/stampede) | Runs a whole job from one ask: a Claude Code lead plans it and opens Claude, Codex or Cursor worker panes only when parallel work pays off, woken by hooks instead of polling. Holds every merge, push, send, spend and close until you approve it on your phone through Moshi; macOS only. |
+| [**vib-z/stampede**](https://github.com/vib-z/stampede) | Uses a Grok Bot as the inlet that spins up a team of local Claude Code and Codex agents on your Mac over Tailscale, run by one lead in Herdr. Sends each gate question back to whoever started the job (the Grok Bot chat, Moshi if started locally, or an answer in Herdr); macOS only. |
 
 ### Swarm, mob, and consensus orchestrators
 
